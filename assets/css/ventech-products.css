@@ -19,9 +19,8 @@
 .ventech-container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0px;
+  padding: 10px 0px;
 }
-
 /* ── Breadcrumb ───────────────────────────────────────────── */
 .ventech-breadcrumb {
   padding: 12px 0;
@@ -61,7 +60,36 @@
   color: #071123 !important;
   padding: 120px 24px;
 }
+@media (max-width: 992px) {
+  .ventech-category-hero {
+    padding: 80px 20px;
+  }
+  .ventech-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 16px;
+  }
+}
 
+@media (max-width: 576px) {
+  .ventech-category-hero {
+    padding: 60px 15px;
+  }
+
+  .ventech-category-hero-inner {
+    gap: 16px;
+  }
+  .ventech-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 16px;
+  }
+
+  .ventech-hero-icon {
+    width: 50px;
+    height: 50px;
+  }
+}
 .ventech-category-hero-inner {
   max-width: 900px;
   margin: 0 auto;
