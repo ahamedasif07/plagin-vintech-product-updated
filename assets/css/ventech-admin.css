@@ -1,0 +1,6 @@
+/* Ventech Admin Styles */
+.ventech-meta-table th { width: 160px; vertical-align: middle; }
+.ventech-meta-table td input { width: 100%; max-width: 500px; }
+#ventech-perf-table td input { width: 90px; }
+.ventech-pdf-entry { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+.ventech-pdf-filename { font-size: 12px; color: #666; }
