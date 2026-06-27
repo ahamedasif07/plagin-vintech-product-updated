@@ -48,35 +48,50 @@
 
 /* ── Category Archive Hero ────────────────────────────────── */
 .ventech-category-hero {
-  background: linear-gradient(135deg, var(--ventech-primary) 0%, #234a8a 100%);
-  color: black !important;
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.74) 0%,
+      rgb(255, 255, 255) 100%
+    ),
+    url("../images/hero-ceiling.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #071123 !important;
   padding: 120px 24px;
 }
+
 .ventech-category-hero-inner {
   max-width: 900px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   gap: 32px;
+  justify-content: center;
 }
+
 .ventech-hero-icon {
   flex-shrink: 0;
   width: 80px;
   height: 80px;
   opacity: 0.9;
 }
+
 .ventech-hero-icon svg {
   width: 100%;
   height: 100%;
-  stroke: rgba(255, 255, 255, 0.9);
+  stroke: rgba(0, 0, 0, 0.9);
 }
+
 .ventech-category-title {
-  font-size: clamp(24px, 4vw, 42px);
-  font-weight: 700;
+  font-size: clamp(26px, 5vw, 44px);
+  font-weight: 900;
   margin: 0 0 10px;
-  color: #ffff;
+  color: #000000;
   letter-spacing: 1px;
 }
+
 .ventech-category-desc {
   font-size: 16px;
   opacity: 0.85;
@@ -84,7 +99,6 @@
   max-width: 600px;
   line-height: 1.6;
 }
-
 /* ── Products Grid ────────────────────────────────────────── */
 .ventech-archive-content {
   padding: 48px 24px;
